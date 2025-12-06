@@ -35,6 +35,29 @@ const myFunction = function() {
     
 }
 
-console.log(typeof anotherId);
+// console.log(typeof anotherId);
+
+// +++++++++++++++++++++++++++++++++++  Mermory  +++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "Tanmaydotcom"
+anothername = "Tanmaymalpure"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "tanmaymalpure9@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "tanmay@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
 
 
