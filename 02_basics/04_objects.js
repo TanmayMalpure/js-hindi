@@ -80,5 +80,21 @@ const {courseInstructer: instructor} = course
 // navbar(company = "tanmay")
 
 
+// {
+//     name: "Tanmay",
+//     coursename: "js in hindi",
+//     price: "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
+
+
+
+
+
 
 
